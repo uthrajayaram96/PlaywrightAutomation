@@ -1,0 +1,18 @@
+[
+    {
+        "loginEmail": "testuser12uj@gmail.com",
+        "password": "Learning#124",
+        "searchProductName": "Adidas Original",
+        "cvv": "566",
+        "nameOnCard": "Test UserUJ",
+        "country": " India"
+    },
+    {
+        "loginEmail": "test_123@email.com",
+        "password": "Password#1",
+        "searchProductName": "Iphone 13 Pro",
+        "cvv": "566",
+        "nameOnCard": "Test User",
+        "country": " Qatar"
+    }
+]

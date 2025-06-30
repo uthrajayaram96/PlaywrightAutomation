@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","11998","@UI E2E Test case - POM Login - For one data","","Tue Jun 24 14:44:13 EDT 2025","passed","Tue Jun 24 14:44:25 EDT 2025","","E2EtestPO.spec.js","",""
+"","11488","@UI E2E Test case","","Tue Jun 24 14:44:13 EDT 2025","passed","Tue Jun 24 14:44:24 EDT 2025","","E2Etest.spec.js","",""
