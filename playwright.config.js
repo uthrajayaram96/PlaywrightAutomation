@@ -29,7 +29,7 @@ export default defineConfig({
   //testMatch: ['NetworkTest2.spec.js'],
   //testMatch: ['MoreValidations.spec.js'],
   //testMatch: ['upload-download.spec.js'],
-  //testMatch: ['E2EtestPO.spec.js'],
+  testMatch: ['E2EtestPO.spec.js'],
   reporter: 'html',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
@@ -38,7 +38,7 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     browserName:'chromium',
-    headless: false,
+    headless: true,
     screenshot: 'on',
     //trace:'on',
     //trace:'retain-on-failure',
