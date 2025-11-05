@@ -25,11 +25,11 @@ export default defineConfig({
   //testMatch: ['WebAPIPart1.spec.js'],
   //testMatch: ['WebAPIPart2.spec.js'],
   //testMatch: ['NetworkTest.spec.js'],
-  //testMatch: ['test.spec.js'],
+  testMatch: ['DynamicNewsPortalValidator.spec.js'],
   //testMatch: ['NetworkTest2.spec.js'],
   //testMatch: ['MoreValidations.spec.js'],
   //testMatch: ['upload-download.spec.js'],
-  //testMatch: ['E2EtestPO.spec.js','DynamicNewsPortalValidator.spec.js'],
+  //testMatch: ['E2EtestPO.spec.js'],
   //testMatch: ['**/{E2EtestPO,DynamicNewsPortalValidator}.spec.js'],
   reporter: 'html',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
