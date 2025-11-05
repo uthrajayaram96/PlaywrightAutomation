@@ -1,6 +1,11 @@
+/*
+- This Test validates the latest news is at top (1st 100 news articles are sorted in descending order)
+- Handles pagination, dynamic contenet loading and compare date-time to validate the artickes are sorted in 
+  descending order.
+*/
 const {test, expect} = require('@playwright/test');
 
-test('Example Test', async ({page})=>{
+test('Validate News Articles are sorted in descending', async ({page})=>{
 
 
     await page.goto("https://news.ycombinator.com/newest");
@@ -21,7 +26,7 @@ test('Example Test', async ({page})=>{
     //console.log(articleDateAndTime.length);
     //console.log(articleDateAndTime);
 
-    // check of validate if array is sorted in descending
+    // validate if array is sorted in descending
     const isSorted = articleDateAndTime.every((val,i,arr) => {
         if(i===0) return true;
         const current = new Date(val).getTime();
